@@ -2,6 +2,7 @@
 layout: full-width
 title: email list
 nav_include: true
+no_seo: true
 ---
 
 # Email

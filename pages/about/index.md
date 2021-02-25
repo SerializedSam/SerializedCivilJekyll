@@ -2,6 +2,7 @@
 layout: full-width
 title: About
 nav_include: true
+no_seo: true
 ---
 
 # About

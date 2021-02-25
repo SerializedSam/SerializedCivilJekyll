@@ -2,6 +2,7 @@
 layout: full-width
 title: Archive
 nav_include: true
+description: An archive of all the posts currently on Serialized Civil.
 ---
 
 # Archive

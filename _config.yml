@@ -4,7 +4,7 @@ subtitle: civil & structural musings
 author: Sam Hall
 simple_search: http://google.com/search
 description: A blog dedicated to civil & structual musings
-name: Serialzied Civil
+name: Serialized Civil
 markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 permalink: /articles/:short_year/:title
@@ -31,6 +31,8 @@ plugins:
   - jekyll-seo-tag
 tag_page_layout: tag_page
 tag_page_dir: tag
+tag_page_data:
+  no_seo: true
 algolia:
   application_id: 'T1VYU8GW81'
   index_name: 'Serialized-civil'
