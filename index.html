@@ -1,0 +1,23 @@
+---
+layout: full-width
+title: blog
+nav_include: true
+# Note that this index page uses a full-width layout!
+---
+
+{% for post in site.posts %}      
+  <hr class="slender">
+  <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="contrast">{{ post.title }}</h3></a>
+  <br><span>
+    {{ post.date | date: "%B %-d, %Y" }}
+    {% if post.tags.size > 0 %}
+        {% assign sorted_tags = post.tags | sort %}
+        •
+        {% for tag in sorted_tags %}
+                <a href="/{{ site.tag_page_dir }}/{{ tag | slugify: 'pretty' }}/" style="padding: 4px;">{{ tag }}</a>
+        {% endfor %}
+{% endif %}
+  </span>
+  <br/>
+  <div>{{ post.content }}</div> 
+{% endfor %}

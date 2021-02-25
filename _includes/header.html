@@ -1,0 +1,17 @@
+<!--- Header and nav template site-wide -->
+<header>
+    <nav class="group">
+	<a href="{{site.baseurl}}/"><img class="badge" src="{{site.baseurl}}/assets/img/badge_1.png" alt="CH"></a>
+	{% for node in site.pages %}
+		{% if node.nav_include %}
+		    {% if page.url == node.url %}
+		      <a class="active" href="{{node.url | prepend: site.baseurl}}" class="active">{{node.title}}</a>
+		    {% else %}
+		      <a href="{{node.url | prepend: site.baseurl}}">{{node.title}}</a>
+		    {% endif %}
+	    {% endif %}
+  	{% endfor %}
+	</nav>
+	<script async src="https://cse.google.com/cse.js?cx=9216789fed915e10a"></script>
+	<div class="gcse-search" style="width: 40em;"></div>
+</header>
