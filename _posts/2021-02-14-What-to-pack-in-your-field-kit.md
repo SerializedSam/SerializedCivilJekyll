@@ -24,7 +24,7 @@ tags: [gear, field work]
 
 **Photo log.** No matter how many times I'm convinced I'll be able to reconstruct what I need from my pictures and my notes, I usually wish I had a detailed photolog explaining all my pictures.
 
-<h2>Stuff for in the field</h2>
+## Stuff for in the field
 I'm skipping over all the typical PPE, but yes, bring your PPE
 Gloves. Some people don't count them as part of standard PPE, but in IMO you should always have a pair.
 
@@ -67,7 +67,8 @@ A solid bag. One with pockets, pouches, or some other form of internal organizat
 **Field clothes.** I keep jeans, a long-sleeved shirt, jacket, and extra socks in my field kit at all times, so if I'm in business casual at the office and get an urgent call I can easily get geared up.
 
 If you're going to be somewhere remote, **gear for relieving yourself.** TP, trowel, hand sanitizer or wipes. If you could use one, a pStyle or similar stand-to-pee device.
-<h2> If it is going to be cold </h2>
+
+## If it is going to be cold
 **Helmet liner**
 
 **Neck warmer / turtle fur**

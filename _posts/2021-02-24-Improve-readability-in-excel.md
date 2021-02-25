@@ -6,7 +6,7 @@ categories: post
 tags: [excel, calculations]
 ---
 
-{% newthought 'I've heard it said in more than once' %} - Excel is the world's most widely used programming environment.
+{% newthought "I've heard it said more than once" %} - Excel is the world's most widely used programming environment.
 
 This certainly matches with my experience. Everyone has excel, it can do math, and it is pretty easy to format things to print on the page.
 
@@ -17,34 +17,44 @@ Nevertheless, most of us will end up creating calculations in Excel at some poin
 # Label things clearly
 Show clearly what is an input, what's a calculation, etc. using headings or other means. 
 
-{% maincolumn "assets/img/readability-in-excel/01 label things clearly.png" %}
+{% maincolumn "assets/img/readability-in-excel/01-label-things-clearly.png" "" %}
 
 # Use cell styles
 Cell styles help to visually differentiate what is going on with your sheet. Excel conveniently has many built in styles & labels to make it easier to consistently select the same styles for the same type of information. You can also modify these if desired.
 
 Here I've added a heading style, input style, and explanatory style. We can see that this already helps to differentiate what I'm communicating about these values
 
+{% maincolumn "assets/img/readability-in-excel/02-cell-styles.png" "" %}
+
 # Name variables - use Unicode and subscripts
 Say we want to perform a calculation using the unit weight of concrete. By naming our cell, we can make our calculations much clearer. 
 
 Using Unicode also makes our names more succinct, and lets them better match the code / design references. If you put the symbol to the left of the value, when you right click to name the cell it will automatically use the values in the adjacent cell.
 
-[compart](https://www.compart.com/en/unicode/) is a simple way to find relevant Unicode characters - you can search by spelling things out, like "gamma", and then copy over the relevant symbol to excel. ‍‍
+[compart](https://www.compart.com/en/unicode/) is a simple way to find relevant Unicode characters - you can search by spelling things out, like "gamma", and then copy over the relevant symbol to excel. 
+
+{% maincolumn "assets/img/readability-in-excel/03-name variables.png" "" %}‍‍
 
 # Use =FORMULATEXT() to display equations
-A huge benefit of using Unicode to name variables is that your formulas will now be human readable, even when printed and cell labels are not available. 
+A huge benefit of using Unicode to name variables is that your formulas will now be human readable, even when printed and cell labels are not available.
 
 I strongly recommend using FORMULATEXT vs writing out what an equation is supposed to be by hand, because with the latter it is possible to correct what is displayed, but not the actual math being performed.
 
 # Apply number formats appropriately
 Allow the thousands separator, and adjust the number of significant figures as appropriate for your calculation.‍
 
+{% maincolumn "assets/img/readability-in-excel/04-apply-number formats.png" "" %}‍‍
+
 # Include figures
 There are a few ways to approach creating figures in Excel.
 
 One method I have used is creating figures in Revit, often just using filled regions. I'll rename dimension strings in Revit to match the symbols in Excel. You can't do subscripts in Revit's dimension strings, so the formatting won't match exactly.
 
+{% maincolumn "assets/img/readability-in-excel/05-revit-sketch.png" "" %}‍‍
+
 Another possible method is by producing graphs in Excel itself. This is something I've seen done more than I have actually performed myself, but it would look something like what I'm showing below. The big thing I haven't worked out with this method is how to nicely label the dimensions / variables in the graphic I've created.
+
+{% maincolumn "assets/img/readability-in-excel/06-excel-sketch.png" "" %}‍‍
 
 # Use groups
 Sometimes in Excel it can be helpful to break more complicated logic down into smaller steps. However, these smaller steps are not always appropriate / relevant to include for the printed document.
@@ -53,10 +63,15 @@ One way I have found to manage these steps is to use the Data → Group function
 
 I've used this is for looking up the required factor of safety for sliding based on the structure information and the EM 1110-2-2100 Tables 3-2 and 3-3. As you can see below, I've reproduced the information from Tables 3-2  and 3-3. I use user inputs of the structure information to perform a lookup and return the minimum FS.
 
+{% maincolumn "assets/img/readability-in-excel/07-groups-1.png" "" %}‍‍
 That minus symbol in red is the group, and when collapsed all that is visible is the relevant output and table reference. 
+
+{% maincolumn "assets/img/readability-in-excel/08-groups-2.png" "" %}
 
 # Break things up across sheets
 Another general practice I've adopted in excel is to try and keep information on a single sheet to what will fit on a single page.
+
+{% maincolumn "assets/img/readability-in-excel/09-across-sheets.png" "" %}
 
 I've found that if a calculation is getting longer than a single page, it is helpful to break it up into parts and use the sheet names to help make the calculation easier to navigate. 
 
