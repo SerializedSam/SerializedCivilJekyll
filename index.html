@@ -14,7 +14,7 @@ nav_include: true
         {% assign sorted_tags = post.tags | sort %}
         •
         {% for tag in sorted_tags %}
-                <a href="/{{ site.tag_page_dir }}/{{ tag | slugify: 'pretty' }}/" style="padding: 4px;">{{ tag }}</a>
+                <a href="/{{ site.tag_page_dir }}/{{ tag | slugify: 'pretty' }}.html" style="padding: 4px;">{{ tag }}</a>
         {% endfor %}
 {% endif %}
   </span>
