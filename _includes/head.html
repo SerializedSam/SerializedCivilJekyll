@@ -45,11 +45,12 @@
 
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
   {% feed_meta %}
+  {% seo %}
+
   {% if page.no_seo %}
     <meta name="robots" content="[noindex,follow]">
-  {% else %}
-    {% seo %}
   {% endif %}
+
 
   <!-- insert favicons. use https://realfavicongenerator.net/ -->
 
