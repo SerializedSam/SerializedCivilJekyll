@@ -4,6 +4,8 @@ title: email list
 nav_include: true
 ---
 
+# Email
+
 Sign up here to be added to the email list.
 
 <form 

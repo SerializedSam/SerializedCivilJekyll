@@ -4,6 +4,8 @@ title: Archive
 nav_include: true
 ---
 
+# Archive
+
 ## Tags
 {{ site | tag_cloud }}
 

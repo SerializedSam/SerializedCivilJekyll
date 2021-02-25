@@ -4,6 +4,8 @@ title: About
 nav_include: true
 ---
 
+# About
+
 {% newthought 'Serialized Civil is a blog'%} about civil and structural engineering. 
 
 I go by Sam. This is a place for me to share what I'm learning about, practicing, and improving on with a wider audience. 
