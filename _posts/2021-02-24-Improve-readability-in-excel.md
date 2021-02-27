@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Eight Tips to Improve Readability in Excel"
+title:  "Improve Engineering Readability in Excel"
 date:   2021-02-24 21:48:01
 categories: post
 tags: [excel, calculations]
+description: A guide to improving readability in excel, geared towards civil structural uses - including symbols, units, and more. 
 ---
 
 {% newthought "I've heard it said more than once" %} - Excel is the world's most widely used programming environment.

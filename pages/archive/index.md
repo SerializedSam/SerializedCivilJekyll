@@ -2,7 +2,7 @@
 layout: full-width
 title: Archive
 nav_include: true
-description: An archive of all the posts currently on Serialized Civil.
+description: This page contains the complete archive of Serialzied Civil. Explore posts by date, title, or tags.
 ---
 
 # Archive

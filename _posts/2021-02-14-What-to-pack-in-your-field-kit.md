@@ -4,6 +4,7 @@ title:  "What to pack in your field kit"
 date:   2021-02-14 17:04:01
 categories: post
 tags: [gear, field work]
+description: A guide on what to prepare and what to pack for structural field work. The key to having a good time is having the right prep and the right equipment. 
 ---
 
 {% newthought 'A well-packed field kit is critical' %} to having a safe, comfortable, efficient, and non-embarrassing field experience. The first time I had to pack for an inspection I was running around like a chicken with its head cut off. In the time since then, I've accumulated a field kit that I can now basically grab and go for most inspections. Below are some of the items I've added to my field kit over time.
